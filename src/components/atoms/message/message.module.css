@@ -1,0 +1,27 @@
+.message {
+    margin-top: 1rem;
+    min-height: 1.5rem;
+    line-height: 1.5rem;
+
+    font-size: 1rem;
+    color: #222;
+    background-color: #e0f2fe;
+    border: 1px solid #7dd3fc;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(125, 211, 252, 0.5);
+
+    opacity: 1;
+    animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(0.7rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,32 @@
+.titleContainer {
+    margin-bottom: 1rem;
+    text-align: center;
+    user-select: none;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #4caf50, #81c784);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.3));
+    animation: pulse 3s infinite ease-in-out;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: #555;
+    margin-top: 0.25rem;
+    font-style: italic;
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.3));
+    }
+    50% {
+        filter: drop-shadow(0 4px 6px rgba(72, 187, 120, 0.7));
+    }
+}

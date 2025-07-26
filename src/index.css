@@ -1,0 +1,18 @@
+:root {
+}
+
+html {
+    font-size: 16px;
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 360px) {
+    html {
+        font-size: 12px; 
+    }
+}
