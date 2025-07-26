@@ -32,6 +32,7 @@ Running the Application
 To start the application, use the command:
 
 npm install
+
 npm run start
 
 This command simultaneously runs both the backend server (on port 5050) and the frontend client.
